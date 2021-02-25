@@ -1,0 +1,124 @@
+body {
+	text-align: center;
+	background-color: white;
+}
+
+a {
+	text-decoration: none;
+	padding: 5px black;
+	color: blue;
+}
+
+img{
+	border-radius: 75px;
+	height: 200px;
+	width: auto;
+	box-shadow: 0px 0px 30px grey;
+}
+
+ol {
+	display: inline-block; 
+	text-align: left;
+}
+ol > li {
+	padding: 7px 10px 5px 7px;
+}
+
+ul > li {
+	display: inline;
+}
+
+i {
+	font-size: 40px;
+  display: flex;
+}
+
+i:hover{
+	color: black
+}
+
+.banner {
+  height: 500px;
+  background-image: url(img/banner.jpg);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.button-blue{
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 10px ;
+}
+
+.button-blue:hover {
+  background-color: white;
+  text-decoration-color: lightblue;
+  padding: 7px ;
+  border-radius: 25%;
+}
+
+.white-card {
+	background-color: white;
+	padding: 20px;
+	margin: 20px auto;
+	box-shadow: 3px 5px 10px rgba (230, 230, 230, 0.75);
+	border-radius: 7px;
+	width: 100%
+}
+
+.container {
+  margin: 20px auto;
+  width: 700px;
+}
+
+.center {
+  text-align: justify;
+  list-style-position: inside;
+}
+
+.babyboss-me {
+  display: flex;
+  justify-content: space-around;
+}
+
+.babyboss-card {
+  box-shadow: 1px 3px 5px rgba(230, 230, 230, 0.6);
+  border-radius: 5%;
+  width: 70%;
+  margin: 5px;
+}
+
+.babyboss-card > img {
+  height: 270px;
+  width: 97%;
+}
+
+.babyboss-description {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+
